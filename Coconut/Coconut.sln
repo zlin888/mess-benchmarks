@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "CoconutCompiler", "CoconutCompiler\CoconutCompiler.fsproj", "{B50BAE60-B142-4E9A-A23B-D29FAC2BFD4F}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "FSmoothRuntime", "Runtime\FSmooth\FSmoothRuntime.fsproj", "{8A1D6D0D-304C-4004-8959-EB1D6082C0ED}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "FSharpUsecases", "Examples\Micro\FSharp\FSharpUsecases.fsproj", "{389E169C-620A-4883-B42C-018A62278277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B50BAE60-B142-4E9A-A23B-D29FAC2BFD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50BAE60-B142-4E9A-A23B-D29FAC2BFD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50BAE60-B142-4E9A-A23B-D29FAC2BFD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50BAE60-B142-4E9A-A23B-D29FAC2BFD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1D6D0D-304C-4004-8959-EB1D6082C0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1D6D0D-304C-4004-8959-EB1D6082C0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1D6D0D-304C-4004-8959-EB1D6082C0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1D6D0D-304C-4004-8959-EB1D6082C0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389E169C-620A-4883-B42C-018A62278277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389E169C-620A-4883-B42C-018A62278277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389E169C-620A-4883-B42C-018A62278277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389E169C-620A-4883-B42C-018A62278277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

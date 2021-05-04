@@ -1,0 +1,44 @@
+# results of experiments (the runtime results are then composed into .mat file which is not ignored)
+*_J_*
+*_times_*
+estimates_backup.mat
+
+**/packages
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+.vs
+
+# Build results
+/Debug/
+/Release/
+Examples/Debug/
+Examples/Release/
+
+# Python
+__pycache__
+*.db
+AutodiffTools.VC.VC.opendb
+*.exe
+coconut/sample.obj
+*.obj
+ba - Copy.txt
+ba.txt
+ba-old.txt
+ba.txt
+*.opendb
+coconut/FSharp.Core.dll
+
+**/bin
+**/obj
