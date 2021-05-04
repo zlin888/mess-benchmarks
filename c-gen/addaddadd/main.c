@@ -10,7 +10,6 @@ void main()
     int* b = malloc(sizeof(int) * 100);
     int* c = malloc(sizeof(int) * 100);
     int* d = malloc(sizeof(int) * 100);
-    int* tmp = malloc(sizeof(int) * 100);
     for (int i = 0; i < 100; i++)
     {
         a[i] = i;
@@ -19,7 +18,7 @@ void main()
     }
 
     clock_t start_time = clock();
-    for (int i = 0; i < pow(10, 6); i++)
+    for (int i = 0; i < 1000000; i++)
     {
         func_0(a, b, c, d);
     }

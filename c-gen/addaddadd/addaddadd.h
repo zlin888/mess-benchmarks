@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-void func_0(int *var2, int *var1, int *var0, int *var9, int *var10)
+void func_0(int *var2, int *var1, int *var0, int *var9)
 {
     int *var10;
     var10 = malloc(sizeof(int) * 100);
