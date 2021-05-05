@@ -73,11 +73,12 @@ int main(int argc, char** argv)
 #endif
 	
     timer_t t = tic();
+    clock_t start_time = clock();
 
     double total = 0;
     for (int count = 0; count < N; ++count) {
-        vec1->arr[0] += 1.0 / (2.0 + vec1->arr[0]);
-        vec2->arr[10] += 1.0 / (2.0 + vec2->arr[10]);
+        // vec1->arr[0] += 1.0 / (2.0 + vec1->arr[0]);
+        // vec2->arr[10] += 1.0 / (2.0 + vec2->arr[10]);
 #ifdef DPS
 #ifndef HOIST
 	storage_t s = storage_alloc(VECTOR_ALL_BYTES(DIM));
@@ -108,7 +109,11 @@ int main(int argc, char** argv)
 #endif
 #endif
     }
+    clock_t end_time = clock();
     float elapsed = toc2(t);
     printf("total =%f, time per call = %f ms\n, total = %f ms", total, elapsed / (double)(N), elapsed);
+
+    double elapsed_time = (double)(end_time - start_time) / CLOCKS_PER_SEC;
+    printf("Done in %f seconds\n", elapsed_time);
 	return 0;
 }
